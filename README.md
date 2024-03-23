@@ -3,5 +3,5 @@
   # after cloning the repo
 
   # new terminal
-  npm i
-  npm start
+  npm i.
+  npm start.

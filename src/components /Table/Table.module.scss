@@ -1,0 +1,20 @@
+.table_header{
+    font-weight: 700;
+    padding: 8px;
+}
+.city_table{
+    border-color: rgb(222, 226, 230);
+    td,th{
+        padding: 8px;
+    }
+}
+.pagination{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.label_field{
+    margin-right: 10px;
+}

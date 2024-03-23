@@ -1,0 +1,37 @@
+.shimmerTable {
+    width: 18rem;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+  }
+  
+  .tableHead {
+    display: flex;
+    background-color: #e0e0e0;
+  }
+  
+  .shimmerHeader {
+    flex: 1;
+    height: 32px;
+    background-color: #d0d0d0;
+    animation: shimmer 2s infinite linear;
+  }
+  
+  .tableBody {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shimmerRow {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background-color: #f0f0f0;
+  }
+  
+  .shimmerCell {
+    flex: 1;
+    height: 16px;
+    margin: 8px;
+    background-color: #d0d0d0;
+    animation: shimmer 2s infinite linear;
+  }
